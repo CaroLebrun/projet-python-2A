@@ -21,7 +21,7 @@ Présenter l'API DVF
 https://www.data.gouv.fr/fr/dataservices/api-donnees-foncieres/
 https://datafoncier.cerema.fr/donnees/autres-donnees-foncieres/dvfplus-open-data
 
-Liste des variables pouvant sortir de cela : 
+Documentation technique de cette API : 
 https://apidf-preprod.cerema.fr/swagger/#/DVF%2B%20(acc%C3%A8s%20libre)/dvf_opendata_geomutations_list
 
 
