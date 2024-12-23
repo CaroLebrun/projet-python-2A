@@ -1,4 +1,4 @@
-# projet-python-2A
+# Projet Python 
 
 Ce dépôt est le résultat du travail de Camille Frouard, Caroline Lebrun et Isaure Pillet pour leur projet Python de deuxième année de l'Ensae (novembre 2024 - janvier 2025).
 
