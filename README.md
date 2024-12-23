@@ -29,7 +29,7 @@ On vise alors à mesure l'inflexion dans l'écart entre les 2 groupes, qui peut 
 
 ## 4. Sources des données <a name="sources">
 
-
+Nous nous sommes 
 
 Présenter l'API DVF 
 https://www.data.gouv.fr/fr/dataservices/api-donnees-foncieres/
