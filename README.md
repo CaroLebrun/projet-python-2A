@@ -29,9 +29,10 @@ On vise alors à mesure l'inflexion dans l'écart entre les 2 groupes, qui peut 
 
 ## 4. Sources des données <a name="sources">
 
-Nous nous sommes 
+Nous nous sommes appuyées sur 2 bases de données : 
+- L'API DVF (Demande de Valeurs Foncières).
+    Ces données disponibles en open data depuis 2019 permettent de connaître les transactions immobilières intervenues au cours des 5 années en France métropolitaine et les DOM-TOM. Les données contenues sont issues d'actes notariés et d'informations cadastrales et fournissent des informations sur le type, la géographique, le prix de différentes transactions immobilières.
 
-Présenter l'API DVF 
 https://www.data.gouv.fr/fr/dataservices/api-donnees-foncieres/
 https://datafoncier.cerema.fr/donnees/autres-donnees-foncieres/dvfplus-open-data
 
@@ -44,10 +45,16 @@ https://doc-datafoncier.cerema.fr/doc/dv3f/mutation/sterr
 
 Parler des difficultés liées aux nombreux changements de gestionnaires des données (comprendre et expliquer les liens entre data.gouv.fr, api.gouv.fr et le cerema ; les différentes bases de données entre DVF, DVF+ et DV3F, les restructions d'accès selon l'utilisateur et l'absence de documentation pour la partie en pure open data)
 
-
-
-
+- Les données carroyées filosofi mises à disposition par l'INSEE fournissent des informations sur les caractéristiques socio-démographiques de la population  par IRIS d'habitat (population entre 1800 et 5000 habitants généralement).
+Ces données nous ont été très utiles car de nombreuses variables de cette base (A CITER) ont été utilisées comme variables de contrôle dans le modèle difference-in-difference.
+Pour se faire, nous avons donc fusionné  les données DVF avec les données INSEE dans un même dataframe allant jusqu'à 2021.
 
 ## 4. Présentation du dépôt Git <a name="presentation">
+
+Notre projet est essentiellement localisé dans le notebook main.ipynb dans lequel il suffit d'exécuter les cellules du notebook.
+
+Le dossier data.ipynb contient une copie locale des données tirées de nos sources : d'une part les données  dvf avec les clusters Ouest et Sud de Paris et d'autre part les données Filosofi de l'INSEE entre 2014 et 2021 au format csv. 
+
 ## 5. Licence <a name="licence">
+
 
