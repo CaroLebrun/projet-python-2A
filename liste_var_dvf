@@ -1,0 +1,23 @@
+Description des variables de ce dataframe :
+- idmutinvar = identifiant unique entre les diff bases pour retrouver chaque mutation
+- idopendata = identifiant de mutation utilisé depuis l'ouverture de données DVF
+- datemut = date de signature de l'acte de vente
+- anneemut = annee de signature du doc
+- codedep
+- libnatmut = Libellé de nature de mutation tel que défini dans la donnée source DVF 6 catégories : Vente, Vente en l'état futur d'achèvement, Adjudication, Echange, Vente terrain à bâtir et Expropriation.
+- vefa = booléen selon si la vente est en VEFA (vente en l'état futur d'achèvement) ou non
+- valeurfonc = valeur foncière en euro déclarée lors de la vente ; prix net vendeur, inclut la TVA mais n'inclut pas les frais de notaire, d'agence ou des meubles. 
+- nbcomm = nombre de communes concernée par la mutation (i.e. sur lesquelles se trouve la parcelle cadastrale concernée par la mutation)
+- nbpar = comme nbcomm mais pour les parcelles.
+- nbparmut = nb de parcelles ayant muté (i.e. dont la pleine propriété a été transférée lors de la mutation)
+- sterr = surface de terrain ayant muté (mutation = transfert de propriété, donc surface de terrain ayant muté = surface du terrain qui a été vendu)
+- nbvolmut = variable obscure, flemme 
+- nblocmut = nb de locaux ayant muté
+- sbati = surface de l'ensemble du bati ayant muté
+- codtypbien = typologie des biens ; on pourra s'en servir pour filter les maisons et appartements et virer tous les types de batiments bizarres (cf schéma ici) https://doc-datafoncier.cerema.fr/doc/dv3f/mutation/codtypbien
+- libtypbien = comme codtypbien mais pour la base DV3F et non issu de juste DVF
+- geometry
+- l_codeinsee = liste des codes INSEE des communes concernées par la mutation
+- l_idpar =Liste des idpar qui composent l’entité (idpar = Identifiant de parcelle)
+- l_idparmut = liste des identifiants de parcelles ayant muté (idpar)
+- l_idlocmut = liste des identifiants de locaux ayant muté (idloc)
