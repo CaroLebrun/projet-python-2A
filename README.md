@@ -12,7 +12,7 @@ Ce dépôt est le résultat du travail de Camille Frouard, Caroline Lebrun et Is
 
 
 ## 1. Intérêt du sujet <a name="interet">
-Le 25 novembre 2024, un dispositif d'encadrement des loyers est entré en vigueur dans 24 communes du Pays Basque. Face à une hausse du prix d'achat au m² de 35% entre 2019 et 2023 au Pays Basque, cette mesure valable pour une durée de deux ans a pour objectif de freiner l'envolée des loyers. Cette politique du logement semble aujourd'hui de plus en plus considérée par certaines agglomérations, comme une possible réponse à la crise de l'immobilier et des prix du loyer. 
+Le 25 novembre 2024, un dispositif d'encadrement des loyers est entré en vigueur dans 24 communes du Pays Basque. Face à une hausse du prix d'achat au m² de 35% entre 2019 et 2023 au Pays Basque, cette mesure valable pour une durée de deux ans a pour objectif de freiner l'envolée des loyers. Cette politique du logement semble aujourd'hui de plus en plus considérée par certaines agglomérations comme une possible réponse à la crise de l'immobilier et des prix du loyer. 
 
 L'encadrement des loyers est un dispositif autorisé à titre expérimental jusqu'en 2026 visant à limiter l'augmentation du loyer lors de la mise en location d'un logement avec un bail d'habitation dans les zones dites "tendues". A ce jour, cette mesure est appliquée dans 28 agglomérations françaises, dont Paris, Bordeaux, Lille, villes marquées par un déséquilibre entre l'offre et la demande de logements et une hausse croissante des prix de l'immobilier.
 
