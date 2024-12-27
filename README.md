@@ -54,6 +54,6 @@ Parler des difficultés liées aux nombreux changements de gestionnaires des don
 
 Notre projet est essentiellement localisé dans le notebook main.ipynb dans lequel il suffit d'exécuter les cellules du notebook.
 
-Le dossier data.ipynb contient une copie locale des données tirées de nos sources : d'une part les données  dvf avec les clusters Ouest et Sud de Paris et d'autre part les données Filosofi de l'INSEE entre 2014 et 2021 au format csv. 
+Le dossier data.ipynb contient une copie locale des données tirées de nos sources : d'une part les données dvf avec les clusters Ouest et Sud de Paris et d'autre part les données du recensement et de la base Filosofi de l'INSEE entre 2014 et 2021 au format csv. 
 
 
