@@ -1,3 +1,7 @@
+import requests
+import pandas as pd
+import geopandas as gpd
+
 def cleaning_json_for_gpd(data):
     for feature in data["features"]:
         properties = feature["properties"]
@@ -31,8 +35,8 @@ def recup_donnees_dvf(code_insee, annee_mut):
         return mut_gdf
 
 
-def recup_donnees_dvf_all_years(code_insee):
-        url = base_api_dvf_url + f"/dvf_opendata/geomutations/?code_insee={code_insee}&page_size=500"
+def recup_donnees_dvf_all_years(base_url, code_insee):
+        url = base_url + f"/dvf_opendata/geomutations/?code_insee={code_insee}&page_size=500"
         response = requests.get(url)
         data = response.json()
         cleaning_json_for_gpd(data)
